@@ -1,0 +1,83 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    background-color: #f2f2f2;
+}
+.form-container {
+    width: 500px;
+    padding: 20px 40px 20px 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 30px;
+    position: relative;
+}
+
+.form-input {
+    width: 100%;
+    height: 20px;
+    padding: 16px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    font-size: 18px;
+    padding-left: 25px;
+    outline: none;  
+}
+
+.form-button {
+    width:130px;
+    height:55px;
+    font-size: 18px;
+    background-color: #f13d3d;
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    position: absolute;
+    right: 39px;
+    border: none;
+    outline: none;
+}
+.form-container .form{
+    display: flex;
+    gap: 30px;
+}
+
+.tasks li {
+    list-style: none;
+    font-size: 25px;
+    margin-bottom: 7px;
+    color: black;
+    padding: 5px;
+    margin-left: 10px;
+    position: relative;
+    cursor: pointer;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.tasks .checked{
+    color: #555;
+    text-decoration: line-through;
+}
+
+ul li span {
+    position: absolute;
+    border: none;
+    right: 0;
+    color: black;
+    width: 30px;
+    height: 30px;
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 50%;
+    text-align: center;
+    align-items: center;
+}
+ul li span:hover{
+    background-color: rgb(216, 8, 8);
+    transition-duration: 0.3s;
+    color: white;
+}
+
